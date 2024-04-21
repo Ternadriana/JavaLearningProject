@@ -15,6 +15,7 @@ public class GitWorkFlow {
         String step11 = "step11: Dacă ai comentarii care trebui modificate, revină la IntelliJ Idea și execută schimbările, după care execută git commit ammend, urmat de către git push –f. ";
         String step12 = "step12: Odată ce ai cel puțin o aprobare, poți face concatenarea cu succes. Schimbările de pe origin/Nume_ramură vor fi conectate la ramura principală origin/master.  ";
         String step13 = "step13: Important, ramura master din memoria locală git nu conține ultimile modificări, pentru asta trebuie să revii la IntelliJ Idea, să navighezi la ramura master și să descarci ultimile modificări: git checkout master, git fetch, git pull. ";
+        String step14 = "step14: PULL REQUEST CHANGE ";
 
         System.out.println(step1);
         System.out.println(step2);
